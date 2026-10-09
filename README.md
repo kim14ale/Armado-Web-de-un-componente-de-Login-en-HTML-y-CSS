@@ -42,3 +42,7 @@ Para observar la adaptación, cambia el ancho de la ventana o utiliza el modo de
 Este proyecto presenta el diseño visual de un login. Los campos permiten escribir un correo y una contraseña, pero el botón Sign In no ejecuta ninguna acción porque utiliza `type="button"`. No existe conexión a un servidor ni autenticación de usuarios.
 
 Los enlaces Forgot password? y Sign Up tienen `#` como destino provisional.
+## Repositorio
+
+[GitHub](https://github.com/kim14ale/Armado-Web-de-un-componente-de-Login-en-HTML-y-CSS)
+
