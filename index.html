@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdminExpress - Sign In</title>
+    <link href="estilos.css" rel="stylesheet">
+</head>
+<body>
+    <main id="pagina-login">
+        <section class="marca">
+            <h1>AdminExpress</h1>
+        </section>
+
+        <section class="acceso">
+            <form class="login">
+                <h2>Let's <strong>Sign In</strong> 👇</h2>
+                <p class="descripcion">Hey, Enter your details to get sign in<br>to your account.</p>
+
+                <div class="grupo">
+                    <label for="correo">Email</label>
+                    <div class="entrada">
+                        <span aria-hidden="true">✉</span>
+                        <input id="correo" aria-label="Email" name="email" type="email" placeholder="Enter Email" autocomplete="email" required>
+                    </div>
+                </div>
+
+                <div class="grupo">
+                    <label for="clave">Password</label>
+                    <div class="entrada">
+                        <span aria-hidden="true">🔒</span>
+                        <input id="clave" aria-label="Password" name="password" type="password" placeholder="Enter Password" autocomplete="current-password" required>
+                    </div>
+                </div>
+
+                <p class="recuperar"><a href="#">Forgot password?</a></p>
+                <button type="button">Sign In</button>
+                <p class="crear-cuenta">Don't have an account? <a href="#">Sign Up</a></p>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
